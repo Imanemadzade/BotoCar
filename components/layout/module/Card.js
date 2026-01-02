@@ -2,7 +2,7 @@ import styles from "./Card.module.css";
 import Location from "../icons/Location";
 import Link from "next/link";
 function Card(props) {
-  const { id, name, model, year, distance, location, price, image } = props;
+  const { id,image, name, model, year, distance, location, price } = props;
 
   return (
     <Link href={`/cars/${id}`}>
