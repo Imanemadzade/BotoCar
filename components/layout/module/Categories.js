@@ -9,28 +9,20 @@ function Categories() {
   return (
     <div className={styles.container}>
       <div>
-        <span>
-          Sedan
-          <Sedan />
-        </span>
+        <p>Sedan</p>
+        <Sedan />
       </div>
       <div>
-        <span>
-          Suv
-          <Suv />
-        </span>
+        <p>Suv</p>
+        <Suv />
       </div>
       <div>
-        <span>
-          Hatchback
-          <Hatchback />
-        </span>
+        <p>Hatchback</p>
+        <Hatchback />
       </div>
       <div>
-        <span>
-          Sport
-          <Sport />
-        </span>
+        <p>Sport</p>
+        <Sport />
       </div>
     </div>
   );
