@@ -1,8 +1,14 @@
+import Categories from "../../components/layout/module/Categories";
 import CarsPage from "../../components/layout/temlates/CarsPage";
 import carsData from "../../data/carsData";
 
 function Details() {
-  return <CarsPage data={carsData} />;
+  return (
+    <div>
+      <Categories />
+      <CarsPage data={carsData} />
+    </div>
+  );
 }
 
 export default Details;
