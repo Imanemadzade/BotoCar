@@ -9,8 +9,8 @@ function SearchBar() {
 
   const searchHandler = () => {
     if (min && max) {
+        router.push(`/filter/${min}/${max}`);
     } else {
-      router.push(`/filter/${min}/${max}`);
       alert("Please Enter minimum and maximum price!");
     }
   };
