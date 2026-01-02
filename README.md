@@ -1,3 +1,5 @@
+## Connect with me
+[LinkedIn](https://www.linkedin.com/in/imanemadzade)
 # BotoCar 🚗
 
 A simple car selling website simulation built with Next.js, focusing on price filtering and clean UI structure.
